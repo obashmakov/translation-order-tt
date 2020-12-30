@@ -5,8 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translation Order</title>
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/008020109b.js" crossorigin="anonymous"></script>
   </head>
-  <body>
-    
+  <body class="body">
+    <a class="body__logo-link" href="#">
+      <img
+        class="body__logo"
+        src="./images/logo.png"
+        alt="logo"
+      >
+    </a>
+
+    <header class="main__header header">
+      <div class="header__order order">
+        <i class="order__icon fas fa-clipboard"></i>
+        <span class="order__title">YOUR ODER</span>
+        <table class="order__table">
+          <tr class="order__row">
+            <th class="order__header">ITEMS</th>
+            <th class="order__header">DETAILS</th>
+            <th class="order__header">PRICE</th>
+            <th class="order__header">DELIVERY</th>
+          </tr>
+          <tr class="order__row">
+            <td class="oreder__cell">2 documents</td>
+            <td class="oreder__cell">2 languages</td>
+            <td class="oreder__cell">$ 696.06</td>
+            <td class="oreder__cell">48 hours*</td>
+          </tr>
+        </table>
+      </div>
+      <div class="header__buttons">
+        <button class="header__button button">
+          PLACE ORDER
+        </button>
+        <button class="header__button button">
+          PRINT A QUOTE
+        </button>
+      </div>
+
+      <span class="header__line"></span>
+
+      <div class="header__help help">
+        <i class="help__icon far fa-life-ring"></i>
+        <span class="help__title">HELP CENTER</span>
+        <p class="help__text">
+          If you need assistance while placing your
+          order, contact one of our beloved Project
+          Manager by phone or email.
+        </p>
+        <a class="help__phone" href="tel:+9710555555">
+          +971 (0) 555 555
+        </a>
+        <a class="help__email" href="mailto:help@qtest.com">
+          help@qtest.com
+        </a>
+      </div>
+    </header>
+
+    <main class="main">
+      
+    </main>
   </body>
 </html>
