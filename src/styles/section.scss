@@ -1,0 +1,54 @@
+.section {
+  &__number {
+    display: inline-block;
+    margin: 100px 20px 40px 40px;
+    padding: 10px 15px;
+
+    color: $bold-text-color;
+    border: 1px solid $bold-text-color;
+    border-radius: 50%;
+  }
+
+  &__title {
+    display: inline-block;
+
+    font-size: 22px;
+    font-weight: 400;
+    color: $bold-text-color;
+  }
+
+  &__description {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  &__label {
+    width: 200px;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+    padding: 0 20px;
+
+    border: 1px solid $border-color;
+    border-radius: 5px;
+    background-color: $secondary-button-color;
+
+    white-space: nowrap;
+    color: $bold-text-color;
+    cursor: pointer;
+  }
+
+  &__input {
+    visibility: hidden;
+  }
+
+  &__files {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,51 @@
+.files {
+  font-size: 14px;
+  color: $bold-text-color;
+
+  border: 1px solid $border-color;
+  border-radius: 5px;
+
+  &__title {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-right: 145px;
+
+    padding: 15px 145px 25px 0;
+
+    &:first-child {
+      padding-left: 50px;
+      padding-right: 300px;
+    }
+
+    &:last-child {
+      padding-right: 50px;
+    }
+  }
+
+  &__name,
+  &__size,
+  &__number,
+  &__remove {
+    padding-bottom: 15px;
+
+    font-size: 16px;
+    color: $text-color;
+  }
+
+  &__name {
+    padding-left: 50px;
+  }
+
+  &__icon {
+    padding-right: 10px;
+  }
+
+  &__trash {
+    cursor: pointer;
+    transition: 300ms;
+
+    &:hover {
+      color: red;
+    }
+  }
+}

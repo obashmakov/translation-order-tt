@@ -64,7 +64,117 @@
     </header>
 
     <main class="main">
+      <div class="main__select-document">
+        <h1 class="main__title">
+          SELECT WHAT YOU WANT TO TRANSLATE
+        </h1>
+        <div class="main__select select">
+          <div class="select__container">
+            <img
+              class="select__image" 
+              src="./images/web-page.png" 
+              alt="website"
+            >
+            <img
+              class="select__icon"
+              src="./images/check-mark.svg"
+              alt="select-icon"
+            >
+          </div>
+          <div class="select__container select__container--selected">
+            <img
+              class="select__image"
+              src="./images/document.png" 
+              alt="document"
+            >
+            <img
+              class="select__icon select__icon--selected"
+              src="./images/check-mark.svg"
+              alt="select-icon"
+            >
+          </div>
+          <div class="select__container">
+            <img
+              class="select__image" 
+              src="./images/social.png"
+              alt="social account"
+            >
+            <img
+              class="select__icon"
+              src="./images/check-mark.svg"
+              alt="select-icon"
+            >
+          </div>
+        </div>
+      </div>
+
       
+      <section class="section">
+        <span class="section__number">1</span>
+        <h1 class="section__title">
+          Upload your documents
+        </h1>
+        <span class="section__description">
+          (Doc, Docs, Text, PDF, Markdown)
+        </span>
+
+        <form class="section__upload">
+          <label class="section__label" for="upload">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <input
+              class="section__input"
+              type="file"
+              id="upload"
+            >
+            Upload a new file
+          </label>
+        </form>
+
+        <table class="section__files files">
+          <thead>
+            <tr class="files__headers">
+              <th class="files__title">
+                FILE NAME
+              </th>
+              <th class="files__title">
+                FILE SIZE
+              </th>
+              <th class="files__title">
+                NUMBER OF WORDS
+              </th>
+              <th class="files__title">
+                REMOVE
+              </th>
+            </tr>
+          </thead>
+          <tbody class="files__tbody">
+
+          </tbody>
+        </table>
+      </section>
+      
+      <section class="section">
+        <span class="section__number">2</span>
+        <h1 class="section__title"></h1>
+      </section>
+      
+      <section class="section">
+        <span class="section__number">3</span>
+        <h1 class="section__title"></h1>
+      </section>
+      
+      <section class="section">
+        <span class="section__number">4</span>
+        <h1 class="section__title"></h1>
+      </section>
+      
+      <section class="section">
+        <span class="section__number">5</span>
+        <h1 class="section__title"></h1>
+      </section>
     </main>
+
+    <script src="./scripts/uploadedFiles.js"></script>
+    <script src="./scripts/selectType.js"></script>
   </body>
 </html>

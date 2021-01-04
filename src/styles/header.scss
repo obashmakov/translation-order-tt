@@ -1,6 +1,7 @@
 .header {
+  z-index: 5;
   height: 142px;
-  max-width: 1440px;
+  width: 1220px;
   display: flex;
   position: sticky;
   top: 0;
@@ -27,7 +28,5 @@
     height: 142px;
 
     background-color: $border-color;
-
-    // transform: rotate(90deg);
   }
 }
