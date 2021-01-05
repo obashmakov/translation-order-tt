@@ -1,0 +1,133 @@
+.files {
+  font-size: 14px;
+  color: $bold-text-color;
+
+  border: 1px solid $border-color;
+  border-radius: 5px;
+
+  &__title {
+    padding: 15px 145px 25px 0;
+
+    &:first-child {
+      padding-left: 50px;
+      padding-right: 300px;
+    }
+
+    &:last-child {
+      padding-right: 50px;
+    }
+  }
+
+  &__name,
+  &__size,
+  &__number,
+  &__remove {
+    padding-bottom: 15px;
+
+    font-size: 16px;
+    color: $text-color;
+  }
+
+  &__name {
+    padding-left: 50px;
+  }
+
+  &__icon {
+    padding-right: 10px;
+  }
+
+  &__trash {
+    cursor: pointer;
+    transition: 300ms;
+
+    &:hover {
+      color: red;
+    }
+  }
+}
+
+@media (max-width: 1220px) {
+  .files {
+    font-size: 12px;
+
+    &__title {
+      padding-right: 90px;
+      padding-bottom: 15px;
+
+      &:first-child {
+        padding-left: 20px;
+        padding-right: 120px;
+      }
+
+      &:last-child {
+        padding-right: 20px;
+      }
+    }
+
+
+    &__name,
+    &__size,
+    &__number,
+    &__remove {
+      font-size: 12px;
+    }
+
+    &__name {
+      padding-left: 20px;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .files {
+    font-size: 8px;
+
+    &__title {
+      margin-right: 50px;
+
+      &:first-child {
+        padding-left: 5px;
+        padding-right: 70px;
+      }
+
+      &:last-child {
+        padding-right: 5px;
+      }
+    }
+
+    &__name,
+    &__size,
+    &__number,
+    &__remove {
+      font-size: 8px;
+    }
+
+    &__icon {
+      padding-right: 5px;
+    }
+
+    &__name {
+      padding-left: 5px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .files {
+    &__title {
+      &:nth-child(2),
+      &:nth-child(3) {
+        display: none;
+      }
+    }
+
+    &__size,
+    &__number {
+      display: none;
+    }
+
+    &__remove {
+      text-align: center;
+    }
+  }
+}
