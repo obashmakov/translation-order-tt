@@ -32,3 +32,13 @@
     margin-left: 100px;
   }
 }
+
+@media (max-width: 1220px) {
+  .language {
+    &__label {
+      margin-top: 20px;
+      margin-left: -25px;
+      margin-bottom: 10px;
+    }
+  }
+}

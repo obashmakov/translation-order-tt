@@ -80,6 +80,8 @@
               src="./images/check-mark.svg"
               alt="select-icon"
             >
+
+            Website
           </div>
           <div class="select__container select__container--selected">
             <img
@@ -92,7 +94,9 @@
               src="./images/check-mark.svg"
               alt="select-icon"
             >
+            Documents
           </div>
+
           <div class="select__container">
             <img
               class="select__image" 
@@ -104,6 +108,7 @@
               src="./images/check-mark.svg"
               alt="select-icon"
             >
+            Social Account
           </div>
         </div>
       </div>
@@ -267,7 +272,100 @@
           Sing up and choose a payment method
         </h1>
 
-        
+        <p class="section__sing-in">
+          Already have an account with us?
+          <a class="section__link" href="#">
+            Sing in.
+          </a>
+        </p>
+
+        <form class="section__form form">
+          <label class="form__label" for="name">
+            FULL NAME
+            <input
+              class="form__input"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+            >
+          </label>
+
+          <div class="form__container">
+            <label class="form__label" for="email">
+              EMAIL ADRESS
+              <input
+                class="form__input"
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+              >
+            </label>
+            <label class="form__label" for="password">
+              CHOOSE A PASSWORD
+              <input
+                class="form__input"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              >
+            </label>
+          </div>
+
+          <div class="form__container">
+            <label class="form__label" for="card">
+              CARD NUMBER
+              <input
+                class="form__card"
+                type="text"
+                name="card"
+                id="card"
+                placeholder="Card Number"
+              >
+              <i class="fab fa-cc-visa form__visa"></i>
+            </label>
+
+            <label class="form__label" for="date">
+              EXPIRY DATE
+              <input
+                class="form__date"
+                type="date"
+                name="date"
+                id="date"
+              >
+            </label>
+
+            <label class="form__label" for="code">
+              CODE
+              <input
+                class="form__code"
+                type="password"
+                id="code"
+                name="code"
+              >
+            </label>
+          </div>
+
+          <label class="form__check" for="terms">
+            <input
+              type="checkbox"
+              id="terms"
+            >
+            I agree to the
+            <a class="form__link" href="#">
+              Terms & Conditions
+            </a>
+          </label>
+
+          <button class="form__button button">
+            PLACE ORDER
+          </button>
+          <button class="form__button button">
+            PRINT A QUOTE
+          </button>
+        </form>
       </section>
     </main>
 

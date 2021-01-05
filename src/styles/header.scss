@@ -1,7 +1,7 @@
 .header {
   z-index: 5;
   height: 142px;
-  width: 1220px;
+  max-width: 1220px;
   display: flex;
   position: sticky;
   top: 0;
@@ -28,5 +28,31 @@
     height: 142px;
 
     background-color: $border-color;
+  }
+}
+
+@media (max-width: 1220px) {
+  .header {
+    &__line {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .header {
+    width: 500px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    width: 300px;
+    height: 80px;
+
+    &__button {
+      display: none;
+    }
   }
 }

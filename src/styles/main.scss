@@ -37,3 +37,36 @@
     }
   }
 }
+
+@media (max-width: 1220px) {
+  .main {
+    width: 850.2px;
+    
+    &__title {
+      font-size: 14px;
+      width: 400px;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .main {
+    width: 500px;
+
+    &__title {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    width: 300px;
+
+    &__title {
+      width: 270px;
+      font-size: 10px;
+      letter-spacing: 2px;
+    }
+  }
+}

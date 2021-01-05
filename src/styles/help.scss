@@ -34,5 +34,10 @@
       color: $primary-button-color;
     }
   }
+}
 
+@media (max-width: 1220px) {
+  .help {
+    display: none;
+  }
 }
