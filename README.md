@@ -1,6 +1,6 @@
 # Translation-Order-TT
 
- - [DEMO LINK](https://github.com/obashmakov/translation-order-tt)
+ - [DEMO LINK](https://obashmakov.github.io/translation-order-tt)
 
 This project was created using HTML/CSS, SCSS, JavaScript. The layout is completely resposive.
 
