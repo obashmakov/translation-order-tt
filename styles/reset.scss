@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: $bold-text-color;
+  text-decoration: none;
+}

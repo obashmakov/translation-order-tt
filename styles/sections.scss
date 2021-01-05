@@ -1,0 +1,21 @@
+.sections {
+  display: flex;
+
+  &__section {
+    &:last-child {
+      margin-left: 100px;
+    }
+  }
+}
+
+@media (max-width: 1220px) {
+  .sections {
+    flex-direction: column;
+
+    &__section {
+      &:last-child {
+        margin-left: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+@import "variables";
+@import "reset";
+@import "body";
+@import "main";
+@import "header";
+@import "order";
+@import "button";
+@import "help";
+@import "select";
+@import "section";
+@import "files";
+@import "language";
+@import "tone";
+@import "line";
+@import "info";
+@import "sections";
+@import "form";
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", "Helvetica", sans-serif;
+  color: $text-color;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
