@@ -1,0 +1,9 @@
+.sections {
+  display: flex;
+
+  &__section {
+    &:last-child {
+      margin-left: 100px
+    }
+  }
+}

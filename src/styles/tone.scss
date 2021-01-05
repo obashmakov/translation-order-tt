@@ -1,0 +1,49 @@
+.tone {
+  position: relative;
+  width: 250px;
+  height: 80px;
+
+  margin-left: 100px;
+  margin-bottom: 20px;
+
+  background-color: $secondary-button-color;
+
+  font-size: 18px;
+  text-align: center;
+  line-height: 80px;
+  color: $bold-text-color;
+
+  border: 1px solid $border-color;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: 300ms;
+
+  &:hover {
+    border-color: $hover-color;
+  }
+
+  &__icon {
+    margin-right: 10px;
+  }
+
+  &--selected {
+    border: 5px solid $hover-color;
+  }
+
+  &__mark {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    display: none;
+
+    background-color: white;
+    border-radius: 50%;
+
+    &--selected {
+      display: block;
+    }
+  }
+}

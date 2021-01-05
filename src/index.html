@@ -155,26 +155,124 @@
       
       <section class="section">
         <span class="section__number">2</span>
-        <h1 class="section__title"></h1>
+        <h1 class="section__title">
+          Choose your languages pairings
+        </h1>
+
+        <div class="section__language language">
+          <label class="language__label" for="choose">
+            <span class="language__option">
+              FROM
+            </span>
+            <select
+              class="language__select"
+              name="choose"
+              id="choose"
+            >
+              <option>English</option>
+              <option>Russian</option>
+              <option>Ukrainian</option>
+            </select>
+          </label>
+          <label class="language__label" for="choose">
+            <span class="language__option">
+              TO
+            </span>
+            <select
+              class="language__select"
+              name="choose"
+              id="choose"
+            >
+              <option selected disabled>Choose language</option>
+              <option>English</option>
+              <option>Russian</option>
+              <option>Ukrainian</option>
+            </select>
+          </label>
+        </div>
       </section>
-      
-      <section class="section">
-        <span class="section__number">3</span>
-        <h1 class="section__title"></h1>
-      </section>
-      
-      <section class="section">
-        <span class="section__number">4</span>
-        <h1 class="section__title"></h1>
-      </section>
+
+      <div class="sections">
+        <section class="sections__section section">
+          <span class="section__number">3</span>
+          <h1 class="section__title">
+            Select your desired tone
+          </h1>
+  
+          <div class="section__tone tone">
+            <i class="fas fa-comments tone__icon"></i>
+            Friendly / Casual
+            <img
+              class="tone__mark"
+              src="./images/check-mark.svg"
+              alt="select-icon"
+            >
+          </div>
+          <div class="section__tone tone tone--selected">
+            <i class="fas fa-briefcase tone__icon"></i>
+            Corporate / Pro
+            <img
+              class="tone__mark tone__mark--selected"
+              src="./images/check-mark.svg"
+              alt="select-icon"
+            >
+          </div>
+          <div class="section__tone tone">
+            <i class="fas fa-bullhorn tone__icon"></i>
+            Media / Normal
+            <img
+              class="tone__mark"
+              src="./images/check-mark.svg"
+              alt="select-icon"
+            >
+          </div>
+        </section>
+        
+        <section class="sections__section section">
+          <span class="section__number">4</span>
+          <h1 class="section__title">
+            Tell us how urgent this job is
+          </h1>
+  
+          <div class="section__line line">
+            <button class="line__point"></button>
+            <button class="line__point line__point--selected"></button>
+            <button class="line__point"></button>
+          </div>
+          <div class="line__text">
+            <span class="line__time">
+              I GOT TIME
+            </span>
+            <span class="line__time line__time--selected">
+              AVERAGE
+            </span>
+            <span class="line__time">
+              YESTERDAY
+            </span>
+          </div>
+  
+          <div class="section__info info">
+            <i class="fas fa-info-circle info__icon"></i>
+            <span class="info__title">
+              TIMELINE INFO
+            </span>
+            <p class="info__text"></p>
+          </div>
+        </section>
+      </div>
       
       <section class="section">
         <span class="section__number">5</span>
-        <h1 class="section__title"></h1>
+        <h1 class="section__title">
+          Sing up and choose a payment method
+        </h1>
+
+        
       </section>
     </main>
 
     <script src="./scripts/uploadedFiles.js"></script>
-    <script src="./scripts/selectType.js"></script>
+    <script src="./scripts/toggleClass.js"></script>
+    <script src="./scripts/timelineText.js"></script>
   </body>
 </html>

@@ -1,0 +1,23 @@
+.info {
+  width: 600px;
+  height: 156px;
+
+  border: 1px solid $border-color;
+  border-radius: 4px;
+
+  &__icon {
+    margin: 30px 10px 40px 30px;
+
+    color: $bold-text-color;
+  }
+
+  &__title {
+    color: $bold-text-color;
+    font-weight: 600;
+  }
+
+  &__text {
+    max-width: 500px;
+    margin-left: 60px;
+  }
+}
